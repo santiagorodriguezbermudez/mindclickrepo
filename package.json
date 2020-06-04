@@ -1,0 +1,22 @@
+{
+  "name": "mindclick",
+  "version": "1.0.0",
+  "description": "Digital platform that connect therapists with people needing help",
+  "main": "no",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagorodriguezbermudez/mindclick.git"
+  },
+  "author": "Santiago Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagorodriguezbermudez/mindclick/issues"
+  },
+  "homepage": "https://github.com/santiagorodriguezbermudez/mindclick#readme",
+  "dependencies": {
+    "material-components-web": "^6.0.0"
+  }
+}
