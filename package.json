@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/santiagorodriguezbermudez/mindclick#readme",
   "dependencies": {
-    "material-components-web": "^6.0.0"
+    "material-components-web": "^6.0.0",
+    "sass": "^1.26.7"
   }
 }
