@@ -4,7 +4,7 @@
   "description": "Digital platform that connect therapists with people needing help",
   "main": "no",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,20 @@
   },
   "homepage": "https://github.com/santiagorodriguezbermudez/mindclick#readme",
   "dependencies": {
-    "material-components-web": "^6.0.0",
-    "sass": "^1.26.7"
+    "@material/button": "^6.0.0",
+    "@material/textfield": "^6.0.0",
+    "material-components-web": "^6.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "css-loader": "^3.5.3",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   }
 }

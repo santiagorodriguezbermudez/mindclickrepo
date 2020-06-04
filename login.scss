@@ -1,3 +1,7 @@
+
+@use '@material/button/mdc-button';
+@use '@material/button';
+
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +17,6 @@
   padding: 40px;
 }
 
-/*# sourceMappingURL=login.css.map */
+.foo-button {
+  @include button.container-fill-color(darksalmon);
+}
