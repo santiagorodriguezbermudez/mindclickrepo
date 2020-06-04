@@ -1,6 +1,7 @@
 
 @use '@material/button/mdc-button';
 @use '@material/button';
+@import "@material/textfield/mdc-text-field";
 
 * {
   margin: 0;
@@ -15,6 +16,13 @@
 .mind-click-logo {
   width: 200px;
   padding: 40px;
+}
+
+.username,
+.password {
+  display: flex;
+  margin: 20px auto;
+  width: 300px;
 }
 
 .foo-button {
