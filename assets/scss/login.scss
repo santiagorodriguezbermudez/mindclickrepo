@@ -1,4 +1,12 @@
+@use "@material/theme" with (
+  $primary: #118bfc,
+  $on-primary: #002984
+);
+
 @import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+@import "@material/textfield/icon";
+@import "@material/button";
 
 * {
   margin: 0;
@@ -11,7 +19,7 @@
 }
 
 .mind-click-logo {
-  margin-top: 10rem;
+  margin-top: 5rem;
   width: 150px;
   padding: 40px;
 }
@@ -25,4 +33,19 @@
 
 .mdc-text-field--filled:not(.mdc-text-field--disabled) {
   background-color: transparent;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 300px;
+  margin: auto;
+
+  button {
+    margin: 3px;
+  }
+
+  .mdc-button__label {
+    color: #fff;
+  }
 }
