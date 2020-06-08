@@ -91,10 +91,10 @@ module.exports = [
       filename: "bundle-login.js"
     },
     module: {
-      loaders: [{
+      rules: [{
         test: /login.js$/,
         loader: 'babel-loader',
-        query: {presets: ['env']}
+        query: {presets: ['@babel/preset-env']}
       }]
     },
   },
@@ -117,10 +117,10 @@ module.exports = [
       filename: "bundle-home.js"
     },
     module: {
-      loaders: [{
+      rules: [{
         test: /home.js$/,
         loader: 'babel-loader',
-        query: {presets: ['env']}
+        query: {presets: ['@babel/preset-env']}
       }]
     },
   }
