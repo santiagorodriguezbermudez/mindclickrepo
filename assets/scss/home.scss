@@ -1,8 +1,20 @@
 @import "@material/drawer/mdc-drawer";
 @import "@material/list/mdc-list";
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+
 .home {
   display: flex; // Flexbox is used to easily arrange the persistent drawer and content side-by-side
+}
+
+.mind-click-logo {
+  margin-top: 5rem;
+  width: 150px;
+  padding: 40px;
 }
 
 .shrine-logo-drawer {
@@ -10,7 +22,6 @@
   width: 48px;
   padding: 40px 0 0;
   margin: 0 auto;
-  fill: currentColor;
 }
 
 .shrine-title {
