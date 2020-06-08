@@ -18,6 +18,10 @@
   "homepage": "https://github.com/santiagorodriguezbermudez/mindclick#readme",
   "dependencies": {
     "@material/button": "^6.0.0",
+    "@material/card": "^6.0.0",
+    "@material/elevation": "^6.0.0",
+    "@material/layout-grid": "^6.0.0",
+    "@material/ripple": "^6.0.0",
     "@material/textfield": "^6.0.0",
     "dart-sass": "^1.25.0",
     "fibers": "^5.0.0",
