@@ -165,7 +165,6 @@
 
 // -------------------------------------------------------------------Sesiones----------------------------------------------------------------------
 .sesiones {
-  margin: 1rem 0;
 
   &-item {
     padding: 0;
@@ -191,8 +190,7 @@
   }
 
   &-pasadas {
-    max-height: 30rem;
-    overflow: hidden;
+    max-height: 20rem;
 
     &-scrollable {
       overflow: scroll;
