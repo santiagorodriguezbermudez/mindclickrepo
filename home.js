@@ -1,13 +1,9 @@
-import {MDCList} from '@material/list';
-
 let currentTherapistSchedule = null;
 const scheduleButtons = document.querySelectorAll('.terapeuta-card-schedule-button');
 const animatingClass = "schedule-form__animating-container--animating";
 const animatingContainerClass = 'schedule-form__animating-container';
 const scheduleFormHiddenClass = 'schedule-form--hidden';
 const scheduleForm = document.querySelector('.schedule-form');
-
-new MDCList(document.querySelector('.mdc-list'));
 
 const removeSchedule = (card) => {
     const animatingSchedule = card.querySelector(`.${animatingContainerClass}`);
