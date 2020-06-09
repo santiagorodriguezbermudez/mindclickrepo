@@ -27,13 +27,7 @@
                 <span class="mdc-list-item__text">Mi Perfil</span>
             </a>
             <a class="mdc-list-item" href="#">
-                <span class="mdc-list-item__text">Mis Sesiones Pasadas</span>
-            </a>
-            <a class="mdc-list-item" href="#">
                 <span class="mdc-list-item__text">Mi Camino</span>
-            </a>
-            <a class="mdc-list-item" href="#">
-                <span class="mdc-list-item__text">Configuración</span>
             </a>
             </nav>
         </div>
@@ -45,7 +39,7 @@
             <h3>Selecciona el terapeuta que te gusta</h3>
             <div class="mdc-layout-grid__inner">
                 <div class="terapeuta-card mdc-layout-grid__cell--span-4-desktop mdc-card">
-                  <div class="terapeuta-card-img mdc-card__media mdc-card__media mdc-card__media--16-9" style="background-image: url('https://static.wixstatic.com/media/c2b45e_7359f3c0eac74537b040054efe065777~mv2.jpg');"><span class="terapeuta-card-price">$80,000/sesión</span></div>
+                  <div class="terapeuta-card-img mdc-card__media mdc-card__media--16-9" style="background-image: url('https://static.wixstatic.com/media/c2b45e_7359f3c0eac74537b040054efe065777~mv2.jpg');"><span class="terapeuta-card-price">$80,000/sesión</span></div>
                   <div class="terapeuta-card-name terapeuta-card__text-label">Adriana Patricia Guio Vega</div>  
                   <div class="terapeuta-card-descripcion">
                       <p>Soy una profesional dispuesta a acompañar desde una escucha empática y creativa. </p>
@@ -118,9 +112,9 @@
                             </span>
                         </button>
                   </div>
-                  <div class="terapeuta-card-schedule mdc-card__action-buttons">
+                  <div class="terapeuta-card-schedule mdc-card__action-buttons mdc-card__actions">
                     <button class="mdc-button mdc-card__action mdc-card__action--button terapeuta-card-schedule-button">
-                        <i class="material-icons mdc-button__icon">calendar_today</i> <span>Reservar</span>
+                        <i class="material-icons mdc-button__icon">calendar_today</i> <span class="schedule-form__button-text">Reservar</span>
                     </button>
                   </div>
                 </div>
@@ -198,7 +192,7 @@
                             </span>
                         </button>
                 </div>
-                    <div class="terapeuta-card-schedule mdc-card__action-buttons">
+                    <div class="terapeuta-card-schedule mdc-card__action-buttons mdc-card__actions">
                         <button class="mdc-button mdc-card__action mdc-card__action--button terapeuta-card-schedule-button">
                             <i class="material-icons mdc-button__icon">calendar_today</i> <span>Reservar</span>
                         </button>
@@ -278,7 +272,7 @@
                             </span>
                         </button>
                 </div>
-                    <div class="terapeuta-card-schedule mdc-card__action-buttons">
+                    <div class="terapeuta-card-schedule mdc-card__action-buttons mdc-card__actions">
                         <button class="mdc-button mdc-card__action mdc-card__action--button terapeuta-card-schedule-button">
                             <i class="material-icons mdc-button__icon">calendar_today</i> <span>Reservar</span>
                         </button>
@@ -294,8 +288,53 @@
                 </button>
             </div>
         </div>
-
+        <div class="mdc-layout-grid schedule-form schedule-form--hidden">
+            <div class="mdc-layout-grid-inner schedule-form__animating-container">
+                <div class="mdc-layout-grid__cell--span-4 mdc-button mdc-button--raised">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">
+                            12 Jun 6pm
+                        </span>
+                </div>
+                <div class="mdc-layout-grid__cell--span-4 mdc-button mdc-button--raised">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">
+                            12 Jun 6pm
+                        </span>
+                </div>
+                <div class="mdc-layout-grid__cell--span-4 mdc-button mdc-button--raised">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">
+                            16 Jun 6pm
+                        </span>
+                </div>
+                <div class="mdc-layout-grid__cell--span-4 mdc-button mdc-button--raised">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">
+                            12 Jun 6pm
+                        </span>
+                </div>
+                <div class="mdc-layout-grid__cell--span-4 mdc-button mdc-button--raised">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">
+                            12 Jun 6pm
+                        </span>
+                </div>
+                <div class="mdc-layout-grid__cell--span-4 mdc-button mdc-button--raised">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">
+                            12 Jun 6pm
+                        </span>
+                </div>
+                <div class="schedule-form-more mdc-layout-grid__cell--span-4 mdc-card__action-buttons mdc-card__actions">
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">
+                        <i class="material-icons mdc-button__icon">calendar_today</i> <span>Mas Opciones</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
+
     <script src="bundle-home.js" async></script>
 </body>
 </html>

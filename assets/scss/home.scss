@@ -34,6 +34,10 @@
   }
 }
 
+.mdc-button__label {
+  color: #fff;
+}
+
 .container-terna {
   min-height: 15rem;
 
@@ -43,10 +47,6 @@
 
   button {
     margin: 1rem;
-
-    .mdc-button__label {
-      color: #fff;
-    }
   }
 
   .terapeuta-card {
@@ -95,8 +95,6 @@
         padding: 0;
       }
     }
-
-
   }
 
   .stats {
@@ -132,6 +130,35 @@
   padding: 1rem 0;
 
   button {
-    margin-left: 0;
+    margin: 0;
+  }
+}
+
+.schedule-form--hidden {
+  visibility: hidden;
+}
+
+.schedule-form {
+  padding: 0 1rem;
+  overflow: hidden;
+
+  .mdc-button {
+    margin: 1rem;
+  }
+}
+
+.schedule-form__animating-container {
+  overflow: hidden;
+  transform: translateY(0);
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.schedule-form__animating-container--animating {
+  transform: translateY(-110%);
+}
+
+.schedule-form-more {
+  button {
+    margin: 0 !important;
   }
 }
