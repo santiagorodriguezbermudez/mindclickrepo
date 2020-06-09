@@ -182,5 +182,20 @@
     &-boton {
       margin: 0 1rem 0 auto;
     }
+
+    &-rating {
+      display: flex;
+      align-items: flex-start;
+      color: #fecf02;
+    }
+  }
+
+  &-pasadas {
+    max-height: 30rem;
+    overflow: hidden;
+
+    &-scrollable {
+      overflow: scroll;
+    }
   }
 }
