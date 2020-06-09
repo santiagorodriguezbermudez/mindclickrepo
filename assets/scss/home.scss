@@ -6,6 +6,7 @@
 @import "@material/button/mdc-button";
 @import "@material/layout-grid/mdc-layout-grid";
 @import "@material/card/mdc-card";
+@import "@material/shape";
 
 * {
   margin: 0;
@@ -38,7 +39,7 @@
 
   h3,
   p {
-    padding: 1rem 1rem 1rem 0;
+    padding: 0.5rem 1rem 0 0;
   }
 
   button {
@@ -51,5 +52,69 @@
 
   .terapeuta-card {
     min-height: 10rem;
+
+    &-price {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 0.75rem 0.75rem 0.75rem 1rem;
+      background-color: rgba($mdc-theme-secondary, 0.7);
+      border-top-right-radius: 15px;
+    }
+
+    &-name {
+      padding: 1rem;
+      font-size: 1.2rem;
+      font-weight: bolder;
+    }
+
+    &-descripcion {
+      padding: 0.25rem 0 0.25rem 1rem;
+      display: flex;
+      flex-direction: row;
+      text-justify: center;
+
+      i {
+        display: flex;
+        align-items: center;
+        padding: 0 1rem 0 0.5rem;
+      }
+
+      p {
+        padding: 0;
+      }
+    }
+
+    &-descripcion-hidden {
+      font-size: 0.9rem;
+    }
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  .intuitivo {
+    color: #d00491;
+  }
+
+  .practico {
+    color: #118bfc;
+  }
+
+  .cercano {
+    color: #74e636;
+  }
+
+  .compasivo {
+    color: #fecf02;
+  }
+
+  .humor {
+    color: #f9144e;
   }
 }
