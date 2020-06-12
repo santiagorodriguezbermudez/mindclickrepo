@@ -1,9 +1,12 @@
+import {MDCTabScroller} from '@material/tab-scroller';
+
 let currentTherapistSchedule = null;
 const scheduleButtons = document.querySelectorAll('.terapeuta-card-schedule-button');
 const animatingClass = "schedule-form__animating-container--animating";
 const animatingContainerClass = 'schedule-form__animating-container';
 const scheduleFormHiddenClass = 'schedule-form--hidden';
 const scheduleForm = document.querySelector('.schedule-form');
+const tabScroller = new MDCTabScroller(document.querySelector('.mdc-tab-scroller'));
 
 const removeSchedule = (card) => {
     const animatingSchedule = card.querySelector(`.${animatingContainerClass}`);
