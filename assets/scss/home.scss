@@ -25,6 +25,7 @@
 // -------------------------------------------------------------------Main Content----------------------------------------------------------------------
 .home {
   display: flex; // Flexbox is used to easily arrange the persistent drawer and content side-by-side
+  padding: 0;
 }
 
 .mind-click-logo {
@@ -36,7 +37,9 @@
 .home-content {
   align-self: stretch;
   width: 100%;
-  padding-left: 1rem;
+  padding: 0;
+
+  @include mdc-layout-grid(phone, $margin);
 
   h1 {
     padding: 1rem;
@@ -49,6 +52,7 @@
 
 .container-terna {
   min-height: 15rem;
+  padding: 0;
 
   h3 {
     padding: 1rem 0;
@@ -211,9 +215,13 @@
 }
 
 // -------------------------------------------------------------------Media Queries----------------------------------------------------------------------
-// Breakpoint for bigger desktop screens
-@media (max-width: 900px) {
+// Breakpoint for bigger tablet and desktop screens
+@media (max-width: 768px) {
   .mdc-top-app-bar__navigation-icon {
     display: block !important;
+  }
+
+  .sesiones-item-rating {
+    display: none;
   }
 }
