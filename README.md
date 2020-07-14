@@ -8,7 +8,8 @@ Startup idea that connects mental health therapist with people looking for help 
 - HTML,
 - CSS,
 - JavaScript,
-- Material Design
+- Material Design,
+- Ruby on Rails
 
 ## Authors
 
