@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_15_125009) do
+ActiveRecord::Schema.define(version: 2020_07_15_132641) do
+
+  create_table "therapist_profiles", force: :cascade do |t|
+    t.text "profile_description"
+    t.text "professional_description"
+    t.text "session_description"
+    t.integer "therapist_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["therapist_id"], name: "index_therapist_profiles_on_therapist_id"
+  end
 
   create_table "therapists", force: :cascade do |t|
     t.string "name"
