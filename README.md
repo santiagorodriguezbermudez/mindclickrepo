@@ -33,6 +33,7 @@ Give a ⭐️ if you like this project!
 
 - Mind Click team for the project ideas
 - Mentor Juan Rosetti for the project guidelines
+- Mentor Andres Ruiz for the project guidelines
 
 ## 📝 License
 
