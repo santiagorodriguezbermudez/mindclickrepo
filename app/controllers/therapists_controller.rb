@@ -3,4 +3,8 @@ class TherapistsController < ApplicationController
     @therapists = Therapist.all
   end
 
+  def show
+    @therapist = Therapist.find(params[:id])
+  end
+
 end
