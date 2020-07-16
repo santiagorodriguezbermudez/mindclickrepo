@@ -30,6 +30,9 @@ gem 'rubocop', '~>0.81.0'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+# For managing image attachments
+gem "paperclip"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

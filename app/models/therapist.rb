@@ -1,3 +1,3 @@
 class Therapist < ApplicationRecord
-  has_one :therapist_profile
+  has_many :personalities
 end

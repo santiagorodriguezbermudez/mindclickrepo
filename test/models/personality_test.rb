@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TherapistProfileTest < ActiveSupport::TestCase
+class PersonalityTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

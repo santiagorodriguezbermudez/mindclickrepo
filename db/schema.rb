@@ -10,7 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_15_132641) do
+ActiveRecord::Schema.define(version: 2020_07_16_130655) do
+
+  create_table "personalities", force: :cascade do |t|
+    t.integer "practico"
+    t.integer "directo"
+    t.integer "cercano"
+    t.integer "compasivo"
+    t.integer "humor"
+    t.integer "espiritual"
+    t.integer "intuitivo"
+    t.integer "cientifico"
+    t.integer "therapist_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["therapist_id"], name: "index_personalities_on_therapist_id"
+  end
 
   create_table "therapist_profiles", force: :cascade do |t|
     t.text "profile_description"
@@ -28,6 +43,17 @@ ActiveRecord::Schema.define(version: 2020_07_15_132641) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "profile_description"
+    t.string "professional_description"
+    t.string "session_description"
+    t.string "profile_picture_file_name"
+    t.string "profile_picture_content_type"
+    t.integer "profile_picture_file_size"
+    t.datetime "profile_picture_updated_at"
+    t.string "cover_picture_file_name"
+    t.string "cover_picture_content_type"
+    t.integer "cover_picture_file_size"
+    t.datetime "cover_picture_updated_at"
   end
 
 end
